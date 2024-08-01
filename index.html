@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="bothclock">
+        <h2 >Select the Clock</h2>
+        <div class="button-container">
+            <a href="#analogclk"><button id="analog-button" class="button">Analog Clock</button></a>
+            <a href="#digitalclk"><button id="digital-button" class="button">Digital Clock</button></a>
+        </div>
+        <section id="analogclk" class="hidden">
+        <div class="container">
+            <div class="clock">
+                <div class="circle" id="secondsanalog" style="--clr:orange"><i></i></div>
+                <div class="circle circle1" id="minutesanalog" style="--clr:blue"><i></i></div>
+                <div class="circle circle2" id="hoursanalog" style="--clr:green"><i></i></div>
+
+                <span style="--i:1;"><b>1</b></span>
+                <span style="--i:2;"><b>2</b></span>
+                <span style="--i:3;"><b>3</b></span>
+                <span style="--i:4;"><b>4</b></span>
+                <span style="--i:5;"><b>5</b></span>
+                <span style="--i:6;"><b>6</b></span>
+                <span style="--i:7;"><b>7</b></span>
+                <span style="--i:8;"><b>8</b></span>
+                <span style="--i:9;"><b>9</b></span>
+                <span style="--i:10;"><b>10</b></span>
+                <span style="--i:11;"><b>11</b></span>
+                <span style="--i:12;"><b>12</b></span>
+            </div>
+        </div>
+    </section>
+<section id="digitalclk" class="hidden">
+            <div class="clock2">
+                <div class="display">
+        
+                    <div class="weekdays">
+                        <span>SUN</span>
+                        <span>MON</span>
+                        <span>TUE</span>
+                        <span>WED</span>
+                        <span>THU</span>
+                        <span>FRI</span>
+                        <span>SAT</span>
+                    </div>
+        
+                    <div class="timeDisplay">
+                        <div class="time">
+                            <span class="hours">00</span><span class="dot">:</span>
+                            <span class="minutes">00</span><span class="dot">:</span>
+                            <span class="seconds">00</span>
+                        </div>
+                        <span class="format">AM</span>
+                    </div>
+                </div>
+    </div>
+</div>
+</section>
+    <script src="Untitled-1.js">
+        
+    </script>
+</body>
+</html>
+
+
